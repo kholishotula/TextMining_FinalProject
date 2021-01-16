@@ -1,91 +1,111 @@
 body {
-    height: 100%;
-    width: 100%; 
-	color: whitesmoke; 
-	font-size: 16px; 
-	font-family: 'Lato';
+  height: 100%;
+  width: 100%;
+  color: whitesmoke;
+  font-size: 16px;
+  font-family: 'Lato';
 }
 
 h1 {
-    text-align: center;
-    color: #404040;
+  text-align: center;
+  color: #404040;
 }
 
 hr {
-    height: 12px;
-    border: 0;
-    box-shadow: inset 0 12px 12px -12px rgba(0, 0, 0, 0.5);
+  height: 12px;
+  border: 0;
+  box-shadow: inset 0 12px 12px -12px rgba(0, 0, 0, 0.5);
+}
+
+.textbox {
+  text-align: center;
 }
 
 textarea {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 10px;
-    width: 500px;
-    height: 100px;
-    -moz-border-bottom-colors: none;
-    -moz-border-left-colors: none;
-    -moz-border-right-colors: none;
-    -moz-border-top-colors: none;
-    background: none repeat scroll 0 0 rgba(0, 0, 0, 0.07);
-    border-color: -moz-use-text-color #FFFFFF #FFFFFF -moz-use-text-color;
-    border-image: none;
-    border-radius: 6px 6px 6px 6px;
-    border-style: none solid solid none;
-    border-width: medium 1px 1px medium;
-    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.12) inset;
-    color: #555555;
-    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-size: 1em;
-    line-height: 1.4em;
-    padding: 5px 8px;
-    transition: background-color 0.2s ease 0s;
+  color: #666;
+  font-size: 14px;
+  -moz-border-radius: 8px;
+  -webkit-border-radius: 8px;
+  margin: 5px 0px 10px 0px;
+  padding: 10px;
+  height: 100px;
+  width: 450px;
+  border: #999 1px solid;
+  font-family: 'Lucida Sans Unicode', 'Lucida Grande', sans-serif;
+  transition: all 0.25s ease-in-out;
+  -webkit-transition: all 0.25s ease-in-out;
+  -moz-transition: all 0.25s ease-in-out;
+  box-shadow: 0 0 5px rgba(81, 203, 238, 0);
+  -webkit-box-shadow: 0 0 5px rgba(81, 203, 238, 0);
+  -moz-box-shadow: 0 0 5px rgba(81, 203, 238, 0);
 }
 
 textarea:focus {
-    background: none repeat scroll 0 0 #FFFFFF;
-    outline-width: 0;
+  color: #000;
+  outline: none;
+  border: #35a5e5 1px solid;
+  font-family: 'Lucida Sans Unicode', 'Lucida Grande', sans-serif;
+  box-shadow: 0 0 5px rgba(81, 203, 238, 1);
+  -webkit-box-shadow: 0 0 5px rgba(81, 203, 238, 1);
+  -moz-box-shadow: 0 0 5px rgba(81, 203, 238, 1);
 }
 
 button {
-    margin: 0 auto;
-    display: block;
-    border: none;
-    background: #404040;
-    color: #ffffff !important;
-    font-weight: 100;
-    padding: 20px;
-    text-transform: uppercase;
-    border-radius: 6px;
-    transition: all 0.3s ease 0s;  
+  color: #fff !important;
+  text-transform: uppercase;
+  text-decoration: none;
+  background: dodgerblue;
+  padding: 20px;
+  border-radius: 5px;
+  display: inline-block;
+  border: none;
+  transition: all 0.4s ease 0s;
+}
+
+button:hover {
+  background: blue;
+  letter-spacing: 1px;
+  -webkit-box-shadow: 0px 5px 40px -10px rgba(0, 0, 0, 0.57);
+  -moz-box-shadow: 0px 5px 40px -10px rgba(0, 0, 0, 0.57);
+  box-shadow: 5px 40px -10px rgba(0, 0, 0, 0.57);
+  transition: all 0.4s ease 0s;
 }
 
 .myDiv {
-    margin: auto;
-    width: 50%;
-    border: 3px solid green;
-    padding: 10px;
+  margin: auto;
+  width: 50%;
+  border: 3px solid green;
+  padding: 10px;
 }
 
 .js-plotly-plot {
-    margin: auto;
-    width: 40%;
-    border: 3px solid black;
-    padding: 10px;
+  margin: auto;
+  width: 40%;
+  border: 3px solid black;
+  padding: 10px;
 }
 
 p {
-    color: black;
+  color: black;
 }
 
 .select-group {
-    padding-top: 20px;
-    display: block;
+  padding-top: 20px;
+  display: block;
 }
 
 .select-item {
-    width: 33%;
-    float: left;
-    text-align: center;
+  width: 33%;
+  float: left;
+  text-align: center;
+}
+
+.select-options {
+  width: 50%;
+  margin: auto;
+}
+
+.button-area {
+  text-align: center;
+  margin-top: 100px;
 }
