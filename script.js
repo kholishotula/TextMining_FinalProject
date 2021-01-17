@@ -33,7 +33,6 @@ const getResp = function() {
 
         //Extracting different sentiments from object
         var positiveSent = outputRes.Positive * 100;
-        console.log(positiveSent);
         var negativeSent = outputRes.Negative * 100;
         var neutralSent = outputRes.Neutral * 100;
         var mixedSent = outputRes.Mixed * 100;
